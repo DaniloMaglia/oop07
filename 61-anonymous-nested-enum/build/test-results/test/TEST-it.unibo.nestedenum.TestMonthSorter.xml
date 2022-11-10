@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="it.unibo.nestedenum.TestMonthSorter" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-11-10T08:39:48" hostname="DaniloPortatile" time="0.292">
+  <properties/>
+  <testcase name="testAmbiguousAndIllegalName()" classname="it.unibo.nestedenum.TestMonthSorter" time="0.112"/>
+  <testcase name="testSorting()" classname="it.unibo.nestedenum.TestMonthSorter" time="0.177"/>
+  <system-out><![CDATA[J is ambigous as both June and January are possible match
+J is ambigous as both June and January are possible match
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
