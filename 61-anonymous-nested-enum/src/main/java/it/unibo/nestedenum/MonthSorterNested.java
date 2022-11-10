@@ -41,7 +41,6 @@ che meglio la rappresenta. A tal proposito, si legga con molta attenzione la Jav
             for (Month month : Month.values()) {
                 if(month.getName().toLowerCase().startsWith(name.toLowerCase())) {
                     if (found != null) {
-                        System.out.println(name + " is ambigous as both " + month.getName() + " and " + found.getName() + " are possible match");
                         throw new IllegalArgumentException(name + " is ambigous as both " + month.getName() + " and " + found.getName() + " are possible match");
                     }
                     found = month;
@@ -67,7 +66,6 @@ che meglio la rappresenta. A tal proposito, si legga con molta attenzione la Jav
 
         @Override
         public int compare(final String o1, final String o2) {
-            // System.out.println("Comparing " + Month.fromString(o1) + " and " + Month.fromString(o2) + "\n\tResult: " + Month.fromString(o1).compareTo(Month.fromString(o2)));
             return Month.fromString(o1).compareTo(Month.fromString(o2));
         }
 
